@@ -1,0 +1,62 @@
+body {
+	text-align: center;
+	background-image: url(foto2.jpg);
+	background-size: cover;
+	font-family: Gill Sans, sans-serif;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+	margin-bottom: 20px;
+
+}
+h1 {
+	font-size: 70px;
+	padding-top: 200px;
+	text-shadow: 4px 4px 4px black;
+	margin-bottom: 60px;
+}
+
+h4{ margin-bottom:50px; }
+
+
+.botao{
+	text-decoration: none;
+	background-color: White;
+	color: black;
+	font-size: 25px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 6px;
+
+}
+.botao:hover{
+	background-color: black;
+	color: white;
+}
+
+.lista{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 150px;
+}
+
+.lista li
+{
+	list-style-type: none; 
+	display: inline-block;
+
+}
+
+
+.lista a{
+ width: 50px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: 20px; 
+  margin-top: 5px;
+  color: white;
+  list-style-type: none; 
+  display: inline-block;
+}
